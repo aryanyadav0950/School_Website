@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Admissions - Bright Public School</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<header>
+<div class="container navbar">
+
+<div class="logo">Bright Public School</div>
+
+<div class="hamburger">☰</div>
+
+<nav class="nav-links">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="academics.html">Academics</a>
+<a href="admissions.html">Admissions</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+</div>
+</header>
+
+<!-- HERO -->
+<section class="hero admission-hero">
+
+<div class="hero-overlay"></div>
+
+<div class="hero-content">
+
+<h1>Admissions Open 2026–27</h1>
+<p>Empowering Young Minds for a Bright Future</p>
+
+<a href="#form" class="btn hero-btn">Apply Now</a>
+
+</div>
+
+</section>
+<!-- ANNOUNCEMENT -->
+
+<section class="section gradient-bg">
+
+<div class="container" style="text-align:center; color:white;">
+
+<h2>Limited Seats Available</h2>
+<p>Admissions open from Nursery to Class 10</p>
+
+</div>
+
+</section>
+
+<!-- ADMISSION PROCESS -->
+
+<section class="section reveal">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Admission Process</h2>
+</div>
+
+<div class="grid">
+
+<div class="card reveal">
+<h3>1. Registration</h3>
+<p>Fill out the admission form online or visit the school.</p>
+</div>
+
+<div class="card reveal">
+<h3>2. Interaction</h3>
+<p>Basic interaction with student and parents.</p>
+</div>
+
+<div class="card reveal">
+<h3>3. Selection</h3>
+<p>Admission based on eligibility and seat availability.</p>
+</div>
+
+<div class="card reveal">
+<h3>4. Fee Submission</h3>
+<p>Complete admission by submitting fees.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ELIGIBILITY -->
+
+<section class="section reveal">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Eligibility Criteria</h2>
+</div>
+
+<div class="grid">
+
+<div class="card">
+<h3>Nursery</h3>
+<p>Age: 3+ years</p>
+</div>
+
+<div class="card">
+<h3>KG</h3>
+<p>Age: 4–5 years</p>
+</div>
+
+<div class="card">
+<h3>Primary (Class 1–5)</h3>
+<p>Based on previous class completion.</p>
+</div>
+
+<div class="card">
+<h3>Middle (Class 6–8)</h3>
+<p>As per school academic assessment.</p>
+</div>
+
+<div class="card">
+<h3>Secondary (Class 9–10)</h3>
+<p>As per CBSE guidelines.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- REQUIRED DOCUMENTS -->
+
+<section class="section reveal">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Required Documents</h2>
+</div>
+
+<div class="grid">
+
+<div class="card">Birth Certificate</div>
+<div class="card">Previous School Report Card</div>
+<div class="card">Transfer Certificate (if applicable)</div>
+<div class="card">Aadhaar Card</div>
+<div class="card">Passport Size Photos</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FEE STRUCTURE -->
+
+<section class="section reveal">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Fee Structure</h2>
+</div>
+
+<table width="100%" border="1" cellpadding="12">
+
+<tr>
+<th>Class Group</th>
+<th>Annual Fee</th>
+</tr>
+
+<tr>
+<td>Nursery - KG</td>
+<td>₹7,200</td>
+</tr>
+
+<tr>
+<td>Class 1 - 5</td>
+<td>₹7,800</td>
+</tr>
+
+<tr>
+<td>Class 6 - 8</td>
+<td>₹8,400</td>
+</tr>
+
+<tr>
+<td>Class 9 - 10</td>
+<td>₹12,000</td>
+</tr>
+
+</table>
+
+</div>
+
+</section>
+
+<!-- WHY CHOOSE US -->
+
+<section class="section reveal">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Why Choose Bright Public School</h2>
+</div>
+
+<div class="grid">
+
+<div class="card">
+<h3>Experienced Faculty</h3>
+<p>Highly qualified teachers ensuring academic excellence.</p>
+</div>
+
+<div class="card">
+<h3>Smart Classrooms</h3>
+<p>Technology-enabled learning environment.</p>
+</div>
+
+<div class="card">
+<h3>Safe Campus</h3>
+<p>Secure and student-friendly environment.</p>
+</div>
+
+<div class="card">
+<h3>Holistic Development</h3>
+<p>Focus on academics, sports, and personality growth.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ADMISSION FORM -->
+
+<section class="section" id="form">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Apply for Admission</h2>
+</div>
+
+<form name="admission" method="POST" data-netlify="true" netlify>
+
+<input type="hidden" name="form-name" value="admission">
+
+<p hidden>
+<label>Don’t fill this out: <input name="bot-field"></label>
+</p>
+
+<p>
+<label>Student Name
+<input type="text" name="student_name" required>
+</label>
+</p>
+
+<p>
+<label>Parent Name
+<input type="text" name="parent_name" required>
+</label>
+</p>
+
+<p>
+<label>Class Applying For
+<input type="text" name="class" required>
+</label>
+</p>
+
+<p>
+<label>Phone Number
+<input type="tel" name="phone" required>
+</label>
+</p>
+
+<p>
+<label>Email
+<input type="email" name="email" required>
+</label>
+</p>
+
+<p>
+<label>Message
+<textarea name="message"></textarea>
+</label>
+</p>
+
+<div data-netlify-recaptcha="true"></div>
+
+<p>
+<button type="submit" class="btn">Submit Application</button>
+</p>
+
+</form>
+</div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="section cta-section">
+
+<div class="container cta-box">
+
+<h2>Schedule a Campus Visit</h2>
+
+<p>Connect with us for admissions & inquiries</p>
+
+<div class="cta-buttons">
+
+<a href="tel:+919456444900" class="cta-btn call">
+📞 Call Now
+</a>
+
+<a href="https://wa.me/919456444900" target="_blank" class="cta-btn whatsapp">
+💬 WhatsApp
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="container grid">
+
+<div>
+<h3>About</h3>
+<p>Bright Public School provides quality education with modern infrastructure.</p>
+</div>
+
+<div>
+<h3>Quick Links</h3>
+<a href="about.html">About</a>
+<a href="academics.html">Academics</a>
+<a href="contact.html">Contact</a>
+</div>
+
+<div>
+<h3>Contact</h3>
+<p>Nidholi Kalan, Etah</p>
+<p>+91 9456444900</p>
+<p>bpsnidholi@gmail.com</p>
+</div>
+
+</div>
+
+<div class="footer-bottom">
+© 2026 Bright Public School
+</div>
+
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
