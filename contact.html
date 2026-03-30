@@ -98,26 +98,27 @@ Uttar Pradesh – 207122
 
 <!-- FORM -->
 
-<div class="card">
+<form name="contact" method="POST" data-netlify="true">
 
-<h2>Send Inquiry</h2>
+<input type="hidden" name="form-name" value="contact">
 
-<form>
+<p hidden>
+<label>Don’t fill this out: <input name="bot-field"></label>
+</p>
 
-<input type="text" placeholder="Your Name" required><br><br>
+<input type="text" name="name" placeholder="Your Name" required><br><br>
 
-<input type="email" placeholder="Email Address" required><br><br>
+<input type="email" name="email" placeholder="Email Address" required><br><br>
 
-<input type="tel" placeholder="Phone Number" required><br><br>
+<input type="tel" name="phone" placeholder="Phone Number" required><br><br>
 
-<textarea placeholder="Your Message"></textarea><br><br>
+<textarea name="message" placeholder="Your Message"></textarea><br><br>
 
-<button class="btn">Send Message</button>
+<div data-netlify-recaptcha="true"></div><br>
+
+<button type="submit" class="btn">Send Message</button>
 
 </form>
-
-</div>
-
 <!-- MAP -->
 
 <div class="card">
@@ -201,5 +202,8 @@ src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.357709106108!2d7
 <script src="js/main.js"></script>
 
 </body>
+<form name="contact" netlify hidden>
+<input type="text" name="name">
+</form>
 
 </html>
