@@ -1,4 +1,4 @@
-# 🎓 Bright Public School Website
+# 🎓 School Website
 
 🌐 **Live Website:** https://bpsnidholi.netlify.app
 
