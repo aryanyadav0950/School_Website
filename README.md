@@ -8,7 +8,7 @@
 
 This is a **modern, responsive, and professional school website** built for **Bright Public School, Nidholi Kalan (Etah, Uttar Pradesh)**.
 
-The website is designed with a **premium UI/UX**, inspired by:
+The website is designed with a **premium UI/UX**, inspired by: 
 
 * International school websites
 * DPS-style layouts
