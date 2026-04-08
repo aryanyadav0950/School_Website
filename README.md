@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 About the Project
+## 📌 About the Project 
 
 This is a **modern, responsive, and professional school website** built for **Bright Public School, Nidholi Kalan (Etah, Uttar Pradesh)**.
 
