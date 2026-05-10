@@ -1,6 +1,6 @@
 # 🎓 School Website
   
- 
+  
 🌐 **Live Website:** https://bpsnidholi.netlify.app
 
 --- 
